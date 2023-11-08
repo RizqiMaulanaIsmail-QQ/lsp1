@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    color: #899C66;
+    height: 50px;
+    align-items: center;
+    border-bottom: 3px solid #899C66;
+}
+
+.logo{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img{
+    margin-left: 5px;
+    width: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    color: #899C66;
+    font-size: 0.8em;
+}
+nav ul li a:hover{
+    color: #cff090;
+}
+
+.button{
+    width:60px;
+    height: 25px;
+    color: #ffffff;
+    background: #899C66;
+    font-size: 0.8em;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.button:hover{
+    background: #ffffff;
+    color: #899C66;
+}
+
+#aktivitas{
+    border-bottom: 3px solid #899C66;
+}
+.text{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+.galery{
+    width: 80%;
+    display: flex;
+    margin: 35px auto;
+
+}
+.from{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.from .skil{
+    display: flex;
+    flex-direction: column;
+    background-color: #736b6b00;
+    border-radius: 10px;
+    margin: 20px 25px;
+  }
+
+ .skil button {
+    width:75px;
+    margin: 0 auto;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background: #899C66;
+    font-size: 0.8em;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .skil button:hover{
+    transform: translateY(-3px);
+    background: #899c66bb;
+  }
+ .from .skil img{
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  #berita{
+    border-bottom: 3px solid #899C66;
+  }
+.berita{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+.cntn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center ;
+    flex-flow: row wrap;
+}
+.conten{
+    width: 800px;
+    height: 150px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #000000;
+    
+    
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 5px
+}
+.ctn{
+    margin: 10px 10px 0 20px;
+    width: 600px;
+}
+.ctn p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    color: #899C66;
+    height: 50px;
+    align-items: center;
+    border-bottom: 5px solid #899C66;
+}
+
+.logo{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img{
+    margin-left: 5px;
+    width: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    color: #899C66;
+    font-size: 0.8em;
+}
+nav ul li a:hover{
+    color: #cff090;
+}
+
+.button{
+    width:60px;
+    height: 25px;
+    color: #ffffff;
+    background: #899C66;
+    font-size: 0.8em;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.button:hover{
+    background: #ffffff;
+    color: #899C66;
+}
+section{
+    padding: 5rem 9%;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-container p{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#about{
+    color: black;
+    text-align: center;
+   
+}
+.about span{
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+    font-weight:900;
+}
+.about p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: left;
+}
+.ul{
+    margin-top: 10px;
+}
+.ul ul li p{
+    font-size:medium;
+    text-align: left;
+}
+#tata{
+    color: black;
+    text-align: center;
+   
+}
+.tertib span{
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+    font-weight:900;
+}
+.tertib p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: left;
+}
+.perpustakaan{
+    margin-top: 10px;
+}
+.perpustakaan ul li p{
+    font-size:medium;
+    text-align: left;
+}
